@@ -3,6 +3,9 @@ package com.justin.twopointers;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ */
 public class LeetCode3 {
     public static int lengthOfLongestSubstring(String s) {
         int result = 0;
