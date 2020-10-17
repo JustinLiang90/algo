@@ -4,7 +4,7 @@ package com.justin.twopointers;
  * It maintains last success window, if find larger one, extend the windown size again.
  * https://leetcode.com/problems/max-consecutive-ones-iii/
  */
-public class LeetCode1004 {
+public class Leetcode1004 {
   public static int longestOnes(int[] A, int K) {
     int count = 0, left = 0, right = 0;
 

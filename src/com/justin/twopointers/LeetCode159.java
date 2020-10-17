@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
  */
-public class LeetCode159 {
+public class Leetcode159 {
     public static int lengthOfLongestSubstringTwoDistinct(String s) {
         int distinct = 0, j = 0, result = 0;
         Map<Character, Integer> map = new HashMap<>();

@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * https://leetcode.com/problems/find-all-anagrams-in-a-string/
  */
-public class LeetCode438 {
+public class Leetcode438 {
     public static List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
 

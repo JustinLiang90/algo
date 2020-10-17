@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * https://leetcode.com/problems/sort-colors/
  */
-public class LeetCode75 {
+public class Leetcode75 {
     public static void sortColors(int[] nums) {
         int i = 0, leftBoundIndex = 0, rightBoundIndex = nums.length - 1;
 

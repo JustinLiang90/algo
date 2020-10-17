@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * https://leetcode.com/problems/interval-list-intersections/
  */
-public class LeetCode986 {
+public class Leetcode986 {
   public static int[][] intervalIntersection(int[][] A, int[][] B) {
     List<int[]> result = new ArrayList<>();
     
