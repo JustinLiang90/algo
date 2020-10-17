@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * https://leetcode.com/problems/partition-labels/
+ */
 public class LeetCode763 {
   public static List<Integer> partitionLabels(String S) {
     List<Integer> result = new ArrayList<>();
