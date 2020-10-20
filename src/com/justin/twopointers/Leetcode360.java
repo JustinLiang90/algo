@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * Type: sorting.
  * https://leetcode.com/problems/sort-transformed-array/
  */
 public class Leetcode360 {

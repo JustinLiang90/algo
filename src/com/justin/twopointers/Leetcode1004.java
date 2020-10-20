@@ -1,6 +1,7 @@
 package com.justin.twopointers;
 
 /**
+ * Type: sliding window.
  * It maintains last success window, if find larger one, extend the windown size again.
  * https://leetcode.com/problems/max-consecutive-ones-iii/
  */

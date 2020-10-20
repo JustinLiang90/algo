@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Type: sliding window.
  * https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
  */
 public class Leetcode159 {

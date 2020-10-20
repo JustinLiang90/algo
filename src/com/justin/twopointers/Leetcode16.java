@@ -3,6 +3,7 @@ package com.justin.twopointers;
 import java.util.Arrays;
 
 /**
+ * Type: find min/max/target.
  * https://leetcode.com/problems/3sum-closest/
  */
 public class Leetcode16 {

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Type: sliding window.
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  */
 public class Leetcode3 {

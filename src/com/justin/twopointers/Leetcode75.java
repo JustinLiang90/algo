@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 /**
+ * Type: sorting.
  * https://leetcode.com/problems/sort-colors/
  */
 public class Leetcode75 {

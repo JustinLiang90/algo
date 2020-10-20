@@ -1,6 +1,7 @@
 package com.justin.twopointers;
 
 /**
+ * Type: two directions.
  * https://leetcode.com/problems/push-dominoes/
  */
 public class Leetcode838 {

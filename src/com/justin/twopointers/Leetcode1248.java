@@ -1,6 +1,7 @@
 package com.justin.twopointers;
 
 /**
+ * Type: sliding window.
  * https://leetcode.com/problems/count-number-of-nice-subarrays/
  */
 public class Leetcode1248 {

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Type: intersection.
  * https://leetcode.com/problems/interval-list-intersections/
  */
 public class Leetcode986 {
