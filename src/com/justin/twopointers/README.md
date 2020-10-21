@@ -4,6 +4,7 @@ Types:
 
 - Find min/max/target.
 - Intersection.
+- Linked list reverse.
 - Prefix sum.
 - Sliding window.
 - Sort.
