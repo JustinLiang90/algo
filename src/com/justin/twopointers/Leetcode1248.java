@@ -1,35 +1,33 @@
 package com.justin.twopointers;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
- * Type: sliding window.
+ * Type: prefix sum.
  * https://leetcode.com/problems/count-number-of-nice-subarrays/
  */
 public class Leetcode1248 {
   public static int numberOfSubarrays(int[] nums, int k) {
-    int count = 0, left = 0, right = 0, presum = 0, result = 0;
+    int result = 0;
+    Map<Integer, Integer> presum = new HashMap<>();
 
-    while(right < nums.length) {
-      if (nums[right] % 2 == 1) {
-        count++;
-
-        if (count >= k) {
-          presum = 1;
-          while(nums[left++] % 2 == 0) {
-            presum += 1;
-          }
-          result += presum;
-        }
-      } else if (count >= k) {
-        result += presum;
+    int sum = 0;
+    for (int i = 0; i < nums.length; i++) {
+      sum += nums[i] % 2;
+      if (presum.containsKey(sum - k)) {
+        result += presum.get(sum - k);
       }
-      right++;
+      if (sum == k) {
+        result += 1;
+      }
+      presum.put(sum, presum.getOrDefault(sum, 0) + 1);
     }
-
     return result;
   }
 
   public static void main(String[] args) {
-    int result = numberOfSubarrays(new int[]{1,2,2,1,2,1,2,2,2,2,2,1,1,1}, 4);
+    int result = numberOfSubarrays(new int[]{2,4,6}, 3);
     System.out.println(result);
   }
 }
