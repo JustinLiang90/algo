@@ -3,7 +3,7 @@ package com.justin.twopointers;
 import java.util.*;
 
 /**
- * Type: sliding window.
+ * Type: sliding window, count as the window size.
  * https://leetcode.com/problems/find-all-anagrams-in-a-string/
  */
 public class Leetcode438 {

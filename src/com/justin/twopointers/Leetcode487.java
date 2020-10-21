@@ -1,7 +1,7 @@
 package com.justin.twopointers;
 
 /**
- * Type: sliding window.
+ * Type: sliding window, count as the window size.
  * https://leetcode.com/problems/max-consecutive-ones-ii/
  */
 public class Leetcode487 {

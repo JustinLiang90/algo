@@ -1,7 +1,7 @@
 package com.justin.twopointers;
 
 /**
- * Type: sliding window.
+ * Type: sliding window, count as the sliding window size.
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
  */
 public class Leetcode80 {

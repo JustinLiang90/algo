@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Type: sliding window.
+ * Type: sliding window, count as the sliding window size.
  * Question: https://leetcode.com/problems/minimum-window-substring/
  */
 public class Leetcode76 {

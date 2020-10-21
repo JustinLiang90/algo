@@ -1,7 +1,7 @@
 package com.justin.twopointers;
 
 /**
- * Type: min/max/target.
+ * Type: find min/max/target.
  * https://leetcode.com/problems/find-the-duplicate-number/
  */
 public class Leetcode287 {
