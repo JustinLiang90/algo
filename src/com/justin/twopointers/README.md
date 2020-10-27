@@ -5,6 +5,7 @@ Types:
 - Intersection.
 - Linked list reverse.
 - Low/high pointer.
+- Local peak/base.
 - Prefix sum.
 - Sliding window.
 - Sort.
