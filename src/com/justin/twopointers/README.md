@@ -2,9 +2,9 @@
 
 Types:
 
-- Find min/max/target.
 - Intersection.
 - Linked list reverse.
+- Low/high pointer.
 - Prefix sum.
 - Sliding window.
 - Sort.

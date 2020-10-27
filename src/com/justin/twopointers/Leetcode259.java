@@ -3,7 +3,7 @@ package com.justin.twopointers;
 import java.util.Arrays;
 
 /**
- * Type: find min/max/target.
+ * Type: find low/high pointer.
  * https://leetcode.com/problems/3sum-smaller/
  */
 public class Leetcode259 {

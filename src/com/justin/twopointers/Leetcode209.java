@@ -1,8 +1,5 @@
 package com.justin.twopointers;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Type: presum/sliding window.
  * https://leetcode.com/problems/minimum-size-subarray-sum/
