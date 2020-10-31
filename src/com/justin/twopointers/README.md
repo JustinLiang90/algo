@@ -7,6 +7,6 @@ Types:
 - Low/high pointer.
 - Local peak/base.
 - Prefix sum.
-- Sliding window.
+- [Sliding window](./docs/slidingwindow.md).
 - Sort.
 - Two direction.
