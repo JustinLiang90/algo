@@ -1,4 +1,4 @@
-# Problems that can been resolved by two pointers
+# Technique variations
 
 Types:
 
