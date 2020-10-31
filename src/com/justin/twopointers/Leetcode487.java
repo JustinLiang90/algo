@@ -6,32 +6,25 @@ package com.justin.twopointers;
  */
 public class Leetcode487 {
   public static int findMaxConsecutiveOnes(int[] nums) {
-    int count = 0, j = 0, result = 0;
+    int count = 0, left = 0, result = 0;
 
-    for (int i = 0; i < nums.length; i++) {
-      if (nums[i] == 0) {
+    for (int right = 0; right < nums.length; right++) {
+      if (nums[right] == 0) {
         count++;
-
-        if (count == 1) {
-          result = Math.max(result, i - j + 1);
-        }
-        while(count > 1) {
-          int left = nums[j];
-          if (left == 0) {
-            count--;
-          }
-          j++;
-        }
-      } else {
-        result = Math.max(result, i - j + 1);
       }
+      while (count > 1) {
+        if (nums[left] == 0) {
+          count--;
+        }
+        left++;
+      }
+      result = Math.max(result, right - left + 1);
     }
-
     return result;
   }
 
   public static void main(String[] args) {
-    int result = findMaxConsecutiveOnes(new int[] { 1 });
+    int result = findMaxConsecutiveOnes(new int[] { 1,0,1,1,0 });
     System.out.println(result);
   }
 }
