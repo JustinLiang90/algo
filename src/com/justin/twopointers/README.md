@@ -4,7 +4,7 @@ Types:
 
 - Intersection.
 - Linked list reverse.
-- Low/high pointer.
+- [Fast and slow pointers](./docs/fastslowpointers.md).
 - Local peak/base.
 - [Prefix sum](./docs/prefixsum.md).
 - [Sliding window](./docs/slidingwindow.md).
