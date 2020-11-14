@@ -3,7 +3,7 @@
 Types:
 
 - Intersection.
-- Linked list reverse.
+- [Linked list reverse](./docs/linkedlistreverse.md).
 - [Fast and slow pointers](./docs/fastslowpointers.md).
 - Local peak/base.
 - [Prefix sum](./docs/prefixsum.md).
